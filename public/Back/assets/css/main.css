@@ -2030,11 +2030,14 @@ input, select, textarea {
 
 		#footer .imglogoizq {
 			position: absolute;
+			width: 30%;
 			top: 8%;
 			left: 6em;
+			
 			}
 			#footer .imglogoder {
 				position: absolute;
+				width: 30%;
 				top: 8%;
 				left: 55em;
 				}

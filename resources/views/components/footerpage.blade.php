@@ -6,7 +6,7 @@
                     <!-- Links -->
                         <section>
                             <ul class="divided">
-                                <img class="imglogoizq" src="Back/images/JusticiaWebIzquierda.jpg" alt="" />
+                                <img class="imglogoizq" src="Back/images/footerimgizquierda.png" alt="" />
                             </ul>
                         </section>
                 </div>
@@ -25,7 +25,7 @@
                                             <dt>WWW</dt>
                                             <dd><a href="#">untitled.tld</a></dd>
                                             <dt>Email</dt>
-                                            <dd><a href="#">user@untitled.tld</a></dd>
+                                            <dd><a href="#">Suministrosyservicios@fhcve.com</a></dd>
                                         </dl>
                                     </div>
                                 </div>
@@ -36,14 +36,14 @@
                         <section>
                         <div class="col-6 col-12-small">
                                         <dl class="contact">
-                                            <dt>Address</dt>
+                                            <dt>Direccion</dt>
                                             <dd>
-                                                1234 Fictional Rd<br />
-                                                Nashville, TN 00000-0000<br />
-                                                USA
+                                                Centro Comercial Villa alianza II, Nivel Mezzanina, Local Nº 7<br />
+                                                Edo. Bolívar, Puerto Ordaz<br />
+                                                Venezuela
                                             </dd>
-                                            <dt>Phone</dt>
-                                            <dd>(000) 000-0000</dd>
+                                            <dt>Telefono</dt>
+                                            <dd>(0414) 8762481 - (0424)  9517363</dd>
                                         </dl>
                                     </div>
                         </section>
@@ -51,13 +51,13 @@
                 <div class="col-6 col-12-medium imp-medium">
                     <!-- About -->
                         <section>
-                                <img class="imglogoder" src="Back/images/JusticiaWebDerecha.jpg" alt="" />
+                                <img class="imglogoder" src="Back/images/footerimgderecha.png" alt="" width="300" height="400"/>
                         </section>
                 </div>
                 <div class="col-12">
                     <div id="copyright">
                         <ul class="menu">
-                            <li>&copy; Agreda & Asociados. All rights reserved</li>
+                            <li>&copy; FHC Suministros y Servicios. All rights reserved</li>
                         </ul>
                     </div>
                 </div>
