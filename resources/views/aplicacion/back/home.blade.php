@@ -11,6 +11,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('Back/assets/css/main.css') }}" />
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0,minimum-scale=1"  />
+		<link  rel = "stylesheet"  href = "{{ asset('Back/assets/css/style.css') }}"  />
 	</head>
 	<body class="homepage is-preload">
 
@@ -21,6 +23,7 @@
 			@else
 				@include('components.notheadermenu')    
 			@endif
+			@include('components.bodydata') 
 			@include('components.footerpage') 
 		</div>
 		<!-- Scripts -->

@@ -1,0 +1,14 @@
+* { 
+    margen : 0 ; 
+    relleno : 0 ; 
+   /* tamaño del cuadro : cuadro de borde; */
+  }
+  /* Ocultar el menú lateral en dispositivos móviles y no permitir el desplazamiento hacia el lateral */ 
+  html { 
+    overflow-x: hidden; 
+  }
+  /* estilos básicos para el componente de encabezado */ 
+  nav { 
+    width: 100%; 
+    padding: 20px; 
+  }

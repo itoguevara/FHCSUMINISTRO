@@ -38,7 +38,8 @@
                                         <dl class="contact">
                                             <dt>Direccion</dt>
                                             <dd>
-                                                Centro Comercial Villa alianza II, Nivel Mezzanina, Local Nº 7<br />
+                                                Centro Comercial Villa alianza II,<br />
+                                                Nivel Mezzanina, Local Nº 7<br />
                                                 Edo. Bolívar, Puerto Ordaz<br />
                                                 Venezuela
                                             </dd>
