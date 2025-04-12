@@ -22,6 +22,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	font-family: lato;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -29,12 +30,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
 body {
 	line-height: 1;
 }
 
 ol, ul {
 	list-style: none;
+	
 }
 
 blockquote, q {
@@ -184,7 +187,7 @@ input, select, textarea {
 		border-top: solid 1px #ddd;
 	}
 
-	blockquote {
+text-	blockquote {
 		border-left: solid 0.5em #ddd;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
@@ -1425,6 +1428,7 @@ input, select, textarea {
 				width: auto;
 			}
 
+
 /* Button */
 
 	input[type="button"],
@@ -1783,7 +1787,6 @@ input, select, textarea {
 		}
 
 /* Banner */
-
 	#banner {
 		text-align: center;
 		width: 940px;
@@ -1858,7 +1861,7 @@ input, select, textarea {
 	}
 
 	#main-wrapper {
-		background: #fff;
+		background: #ffffff;
 	}
 
 	#footer-wrapper {
@@ -1976,13 +1979,18 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 900;			
-			}		
-		#header .imglogo {
+			}	
+	
+		#header	.imglogo {
 		position: absolute;
 		top: 8%;
 		left: .2em;
 		}
-		
+		#header	.menu-prin {
+			position: absolute;
+			top: 35%;
+			left: 28.2em;
+			}		
 		#header .imglogo02 {
 			position: absolute;
 			top: 25%;
@@ -2029,15 +2037,11 @@ input, select, textarea {
 	    }
 
 		#footer .imglogoizq {
-			position: absolute;
-			width: 30%;
-			top: 8%;
-			left: 6em;
-			
+			background-size: cover;
+			background-position: center;
 			}
 			#footer .imglogoder {
 				position: absolute;
-				width: 30%;
 				top: 8%;
 				left: 55em;
 				}
@@ -2526,4 +2530,121 @@ input, select, textarea {
 				padding: 3em 0 1em 0;
 			}
 
+	}
+*.img-empresa {
+		background-image: url("/Back/images/ImgFondoPresentacionEmpresa.png");
+		background-size: cover;
+		background-position: center;
+		}
+*.img-servicios {
+		background-size: cover;
+		background-position: center;
+		width: 315px;
+		}
+
+*.img-vision {
+	background-image: url("/Back/images/personas.png");
+	background-size: cover;
+	background-position: center;
+	}
+
+*.list-valores {
+	list-style: circle inside none;
+	}
+	
+/* Empezamos con el banner  */
+
+.banner {
+	text-align: center;
+	padding-top: 3rem;
+  }
+  
+  .banner__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 30px 0;
+  }
+  
+  .banner__bg {
+	border-radius: 10px;
+	background-color: #545151;
+	margin-top: 3rem;
+  }
+  
+  .banner__title {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 12px;
+  }
+  
+  .banner__description {
+	font-size: 18px;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 12px;
+  }
+  
+  .banner__title,
+  .banner__description {
+	color: white;
+  }
+  
+  .banner__img {
+	width: 250px;
+  }
+  @media (min-width: 768px) {
+	.banner {
+	  text-align: left;
+	}
+  
+	.banner__container {
+	  flex-direction: row;
+	  justify-content: space-around;
+	  padding: 0 30px;
+	}
+  
+	.button {
+	  margin-right: auto;
+	  margin-left: 0;
+	}
+  }  
+
+  .slider-frame {
+	width: 800px;
+	  height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+	}
+	
+	.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 16s infinite alternate ease-in-out;
+	}
+	
+	.slider-frame li {
+	width: 100%;
+	list-style: none;
+	}
+	
+	.slider-frame img {
+	width: 100%;
+	}
+	
+	@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	95% {margin-left: -300%;}
 	}

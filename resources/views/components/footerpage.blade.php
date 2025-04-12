@@ -6,7 +6,7 @@
                     <!-- Links -->
                         <section>
                             <ul class="divided">
-                                <img class="imglogoizq" src="Back/images/footerimgizquierda.png" alt="" />
+                                <img class="imglogoizq" src="Back/images/personal01.png" alt="" />
                             </ul>
                         </section>
                 </div>

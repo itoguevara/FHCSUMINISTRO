@@ -1,14 +1,110 @@
-* { 
-    margen : 0 ; 
-    relleno : 0 ; 
-   /* tamaño del cuadro : cuadro de borde; */
+
+  
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  padding: 0 20px;
+}
+
+figure {
+  display: flex;
+}
+
+
+/* Btn  */
+.button {
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 10px 15px;
+  display: flex;
+  max-width: fit-content;
+  margin: 0 auto;
+  color: #292929;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #e7e6e6;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    text-align: left;
   }
-  /* Ocultar el menú lateral en dispositivos móviles y no permitir el desplazamiento hacia el lateral */ 
-  html { 
-    overflow-x: hidden; 
+
+  .banner__container {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 30px;
   }
-  /* estilos básicos para el componente de encabezado */ 
-  nav { 
-    width: 100%; 
-    padding: 20px; 
+
+  .button {
+    margin-right: auto;
+    margin-left: 0;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: lato;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 50px;
+}
+
+.slider-frame {
+width: 1280px;
+  height: auto;
+margin:50px auto 0;
+overflow: hidden;
+}
+
+.slider-frame ul {
+display: flex;
+padding: 0;
+width: 400%;
+
+animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+width: 100%;
+list-style: none;
+}
+
+.slider-frame img {
+width: 100%;
+}
+
+@keyframes slide {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}
